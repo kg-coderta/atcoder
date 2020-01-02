@@ -1,16 +1,12 @@
 A
-a = gets.chomp
-a[3,1] = "8"
-puts a
-
-B
-n = gets.to_i
-a = []
-for num in 1..n do
-  b = gets.to_i
-  a << b
+a,b = gets.split.map(&:to_i)
+if (a*b).odd?
+  puts "Odd"
+else
+  puts "Even"
 end
-p a.uniq.length
+
+B WA
 
 C
 D
