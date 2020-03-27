@@ -1,10 +1,9 @@
-A(WA)
-a = gets.split.map(&:to_i)
-a.sort
-if a[0] == a[1] || a[1] - a[0] == 1
-  puts a[0]*2
+A
+a,b = gets.split.map(&:to_i).sort
+if b-a == 0
+  p a + b
 else
-  puts a[1]*2 -1
+  p 2 * b - 1
 end
 
 B
