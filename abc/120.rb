@@ -10,5 +10,22 @@ else
 end
 
 B
+a,b,k = gets.split.map(&:to_i)
+aa = []
+bb = []
+for i in 1..a do
+  if a%i == 0
+    aa << i
+  end
+end
+
+for j in 1..b do
+  if b%j == 0
+    bb << j
+  end
+end
+c = aa & bb
+p c.reverse[k-1]
+
 C
 D
