@@ -7,5 +7,18 @@ else
 end
 
 B
+n = gets.to_i
+m = gets.split.map(&:to_i)
+view = 0
+highest = 0
+
+for num in 0..n-1 
+  if m[num] >= highest
+    highest = m[num]
+    view += 1
+  end
+end
+p view
+
 C
 D
