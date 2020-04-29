@@ -24,6 +24,14 @@ end
 
 
 C
+n = gets.to_i
+ar = []
+for num in 1..n do
+s = gets.chomp
+  ar << s
+end
+p ar.uniq.length
+
 D
 E
 F
