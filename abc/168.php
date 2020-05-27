@@ -13,6 +13,14 @@ if ($last === 2 || $last === 4 || $last === 5 || $last === 7 || $last === 9) {
 ?>
 
 B
+s = gets.to_i
+k = gets.chomp
+if s <= k.length
+  puts k
+else
+  puts k.slice(0,s)
+end
+
 C
 D
 E
